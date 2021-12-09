@@ -36,7 +36,7 @@ Selain itu di reject.
 
 
 ## Jawaban 
-**Pertama-tama kita setup static internet di foosha**
+**Pertama-tama kita setup static internet di Foosha**
 ```
 auto eth0
 iface eth0 inet static
