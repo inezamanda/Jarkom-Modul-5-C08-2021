@@ -152,11 +152,12 @@ iptables -t nat -A POSTROUTING -p tcp -d 10.18.9.3 --dport 80 -j SNAT --to-sourc
 3. Pada Foosha ketikkan: ```nmap -p 80 10.18.4.130``` atau ```nmap -p 80 10.18.4.131```
 
 **Testing Nomor 3**
-1. Masuk ke 4 node berbeda
-2. ping ke arah Jipangu/Doriki secara bersamaan
+1. Masuk ke 4 node berbeda apapun
+2. Ping ke arah Jipangu/Doriki secara bersamaan
 
 **Testing Nomor 4 dan 5**
-- Ubah waktu dengan command dibawah pada *Doriki*. Kemudian, lakukan pengetesan dengan ```ping google.com``` pada client yang diperbolehkan aksesnya atau tidak diperbolehkan
+
+Ubah waktu dengan command dibawah pada *Doriki*. Kemudian, lakukan pengetesan dengan ```ping google.com``` pada client yang diperbolehkan aksesnya atau tidak diperbolehkan
 1. ```date -s "8 nov 2021 10:00:00"```
 2. ```date -s "8 nov 2021 17:00:00"```
 
