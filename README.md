@@ -40,8 +40,8 @@ Selain itu di reject.
 ```
 auto eth0
 iface eth0 inet static
-	address 192.168.122.25
-	netmask 255.255.255.0
+    address 192.168.122.25
+    netmask 255.255.255.0
     gateway 192.168.122.1
 ```
 **Jawaban Nomor 1**
