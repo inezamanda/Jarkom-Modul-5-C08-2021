@@ -12,8 +12,21 @@ Anggota Kelompok C08 :
 
 ## CIDR
 ![soal](assets/cidr.png)
+Subnetting menggunakan metode CIDR dengan jumlah subnet 8 buah. Untuk pohon perhitungan CIDR dapat dilihat [disini](https://miro.com/app/board/uXjVOdKLcVA=/). Sedangkan hasil pembagian subnet sebagai berikut:
 
-### 
+![cidr](https://i.imgur.com/8SEHAKz.png)
+
+### Tahap Persiapan
+Setelah meng-assign IP address ke masing-masing node pada topologi (Selain Client), Kami akan melakukan routing dari foosha ke seluruh subnet pada topologi.
+![route](https://i.imgur.com/aEcJFqW.png)
+
+Lalu, untuk DHCP relay, arahkan semua request ke IP Jipangu (10.18.4.131) sebagai DHCP Server pada topologi. 
+
+Selanjutnya, lakukan pengaturan IP Client pada node Jipangu
+![client1](https://i.imgur.com/XEasK8P.png)
+![client2](https://i.imgur.com/aojNu09.png)
+
+Hidupkan DNS Forwarder dan arahkan ke IP 192.168.122.1 agar dapat tersambung ke internet.
 
 ###
 
